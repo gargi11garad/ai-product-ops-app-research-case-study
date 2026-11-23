@@ -160,9 +160,9 @@
     "coverage": "29 first-party MCP offerings or connectors confirmed. Targeted MCP/product-surface checks now cover 39 app rows; 61 have not received a systematic status check. No negative conclusion is inferred from blank/unchecked rows. Product-specific offerings can have plan, region, tenant, or preview limits."
   },
   "deployment": {
-    "public_url": null,
-    "source_repo_url": null,
-    "note": "No connected publishing credentials or source-hosting integration is available in this workspace; local HTML and source are ready, but public deployment/repository publication remain uncompleted."
+    "public_url": "https://gargi11garad.github.io/ai-product-ops-app-research-case-study/",
+    "source_repo_url": "https://github.com/gargi11garad/ai-product-ops-app-research-case-study",
+    "note": "Public repository published; GitHub Pages configured to deploy from the main branch root. Initial deployment is pending GitHub build propagation."
   },
   "source_checked_additions": [
     {
