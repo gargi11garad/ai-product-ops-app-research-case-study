@@ -162,7 +162,7 @@
   "deployment": {
     "public_url": "https://gargi11garad.github.io/ai-product-ops-app-research-case-study/",
     "source_repo_url": "https://github.com/gargi11garad/ai-product-ops-app-research-case-study",
-    "note": "Public repository published; GitHub Pages configured to deploy from the main branch root. Initial deployment is pending GitHub build propagation."
+    "note": "Public repository published; GitHub Pages build completed successfully from the main branch root."
   },
   "source_checked_additions": [
     {
