@@ -1,0 +1,648 @@
+{
+  "as_of": "2026-11-23",
+  "scope": "Targeted official-document review of 11 sampled access claims plus 86 additional rows; three rows remain unresolved. Source checks support core auth/access/API claims but do not constitute full endpoint conformance tests.",
+  "sample_size": 11,
+  "sample_selection": "Purposive sample of higher-risk auth/access cases, not random; not population accuracy.",
+  "first_pass": {
+    "correct_gate_claims": 7,
+    "audited_gate_claims": 11,
+    "accuracy": 0.6364,
+    "basis": "Four documented product-specific access-gate corrections were made in the existing case study; each represents one sampled app gate claim."
+  },
+  "after_verification": {
+    "correct_gate_claims": 11,
+    "audited_gate_claims": 11,
+    "accuracy": 1.0,
+    "basis": "All 11 sampled coarse auth/access claims were checked against current official documentation; do not generalize to all fields/apps."
+  },
+  "corrections": [
+    {
+      "app": "Google Ads",
+      "initial_gap": "Treated production access as a developer-token approval gate.",
+      "verified": "As of 2026-09-09, legacy developer tokens were sunset; API access levels are managed per Google Cloud project. Test access follows API enablement; Explorer+ is needed for production, and feature permissions differ.",
+      "source": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels"
+    },
+    {
+      "app": "Plaid",
+      "initial_gap": "Collapsed free sandbox and live access into a generic production-review gate.",
+      "verified": "Sandbox is free; new eligible US/Canada teams can use a free Trial plan since 2026-04-15; full production eligibility/product coverage remains separate.",
+      "source": "https://plaid.com/docs/sandbox/"
+    },
+    {
+      "app": "Amazon Selling Partner",
+      "initial_gap": "Did not fully distinguish developer qualification from seller consent.",
+      "verified": "Developer registers and qualifies for required roles; public apps need Appstore approval, then sellers separately authorize.",
+      "source": "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview"
+    },
+    {
+      "app": "LinkedIn Ads",
+      "initial_gap": "Initial pass did not fully state program review prerequisites.",
+      "verified": "Marketing API permissions are 3-legged OAuth; access requires application/program prerequisites and review.",
+      "source": "https://learn.microsoft.com/en-us/linkedin/marketing/lms-faq?view=li-lms-2026-05"
+    }
+  ],
+  "source_checks": [
+    {
+      "app": "Salesforce",
+      "source": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html"
+    },
+    {
+      "app": "Zendesk",
+      "source": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/"
+    },
+    {
+      "app": "Freshdesk",
+      "source": "https://developer.freshdesk.com/api/"
+    },
+    {
+      "app": "Google Ads",
+      "source": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels"
+    },
+    {
+      "app": "LinkedIn Ads",
+      "source": "https://learn.microsoft.com/en-us/linkedin/marketing/lms-faq?view=li-lms-2026-05"
+    },
+    {
+      "app": "Mailchimp",
+      "source": "https://mailchimp.com/developer/marketing/api-concepts/authentication/"
+    },
+    {
+      "app": "Shopify",
+      "source": "https://shopify.dev/docs/apps/build/authentication-authorization"
+    },
+    {
+      "app": "Amazon Selling Partner",
+      "source": "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview"
+    },
+    {
+      "app": "Notion",
+      "source": "https://developers.notion.com/reference/intro"
+    },
+    {
+      "app": "Stripe",
+      "source": "https://docs.stripe.com/keys"
+    },
+    {
+      "app": "Plaid",
+      "source": "https://plaid.com/docs/sandbox/"
+    }
+  ],
+  "full_run": {
+    "attempted": 100,
+    "page_fetches_succeeded": 0,
+    "fetch_failures": 100,
+    "failure_types": {
+      "dns_resolution_errors": 100
+    },
+    "failed_apps": [
+      {
+        "app": "Salesforce",
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html",
+        "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+      },
+      {
+        "app": "HubSpot",
+        "url": "https://developers.hubspot.com/changelog/service-keys",
+        "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+      },
+      {
+        "app": "Pipedrive",
+        "url": "https://developers.pipedrive.com/docs/api/v1",
+        "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+      },
+      {
+        "app": "Attio",
+        "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+        "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+      },
+      {
+        "app": "Twenty",
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+      }
+    ],
+    "interpretation": "The current concurrent runner attempted all 100 URLs and all failed with Windows DNS resolution errors (getaddrinfo failed). This records the network restriction of this workspace, not app/API availability. The earlier project state recorded a separate 90/100 successful fetch run, but it produced only page-level signals and did not adjudicate claims. Current run output is authoritative for this runner version."
+  },
+  "mcp": {
+    "apps_targeted_status_checked": 39,
+    "confirmed_present": [
+      "Attio",
+      "Close",
+      "Front",
+      "Mailchimp",
+      "Plain",
+      "Linear",
+      "Bright Data",
+      "MrScraper",
+      "Ahrefs",
+      "SE Ranking",
+      "DealCloud",
+      "Lark",
+      "Airtable",
+      "Coda",
+      "Ramp",
+      "Grain",
+      "Supabase",
+      "Neo4j",
+      "MongoDB Atlas",
+      "Consensus",
+      "Clay",
+      "iPayX",
+      "PitchBook Data",
+      "Higgsfield",
+      "DataForSEO",
+      "Smartsheet",
+      "Otter AI",
+      "NotebookLM Enterprise",
+      "Salesforce Commerce Cloud"
+    ],
+    "unknown_or_unchecked": 61,
+    "coverage": "29 first-party MCP offerings or connectors confirmed. Targeted MCP/product-surface checks now cover 39 app rows; 61 have not received a systematic status check. No negative conclusion is inferred from blank/unchecked rows. Product-specific offerings can have plan, region, tenant, or preview limits."
+  },
+  "deployment": {
+    "public_url": null,
+    "source_repo_url": null,
+    "note": "No connected publishing credentials or source-hosting integration is available in this workspace; local HTML and source are ready, but public deployment/repository publication remain uncompleted."
+  },
+  "source_checked_additions": [
+    {
+      "app": "HubSpot",
+      "source": "https://developers.hubspot.com/changelog/service-keys",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Pipedrive",
+      "source": "https://developers.pipedrive.com/docs/api/v1",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Attio",
+      "source": "https://attio.com/help/reference/apps/generating-an-api-key",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Twenty",
+      "source": "https://docs.twenty.com/developers/extend/api",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Podio",
+      "source": "https://developers.podio.com/index/faq",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Zoho CRM",
+      "source": "https://www.zoho.com/crm/developer/docs/api/v8/auth-request.html",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Close",
+      "source": "https://developer.close.com/integrations",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Intercom",
+      "source": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Front",
+      "source": "https://dev.frontapp.com/docs/create-and-manage-apps",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Pylon",
+      "source": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Plain",
+      "source": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Gorgias",
+      "source": "https://developers.gorgias.com/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Slack",
+      "source": "https://docs.slack.dev/authentication/installing-with-oauth/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Twilio",
+      "source": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Zoho Cliq",
+      "source": "https://www.zoho.com/cliq/help/restapi/v3/registerclient/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Pumble",
+      "source": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Discord",
+      "source": "https://github.com/discord/discord-api-docs/blob/main/developers/topics/oauth2.mdx",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Telegram",
+      "source": "https://core.telegram.org/bots/features",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Meta Ads",
+      "source": "https://developers.facebook.com/docs/graph-api/overview/rate-limiting/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "GoHighLevel",
+      "source": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Klaviyo",
+      "source": "https://developers.klaviyo.com/en/v2026-01-15/docs/authenticate_",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "systeme.io",
+      "source": "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Pinterest",
+      "source": "https://dev.pinterest.com/docs/getting-started/connect-app/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "SendGrid",
+      "source": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "WooCommerce",
+      "source": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "BigCommerce",
+      "source": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "GitHub",
+      "source": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Vercel",
+      "source": "https://vercel.com/docs/rest-api",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Netlify",
+      "source": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Cloudflare",
+      "source": "https://developers.cloudflare.com/api/overview/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Salesforce Commerce Cloud",
+      "source": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Adobe Commerce",
+      "source": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Squarespace",
+      "source": "https://commerce-apis.squarespace.com/commerce-apis/authentication-and-permissions",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Ecwid",
+      "source": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Linear",
+      "source": "https://linear.app/developers/graphql",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Jira Cloud",
+      "source": "https://developer.atlassian.com/cloud/jira/platform/security-for-other-integrations/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Asana",
+      "source": "https://developers.asana.com/docs/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "DataForSEO",
+      "source": "https://docs.dataforseo.com/v3/auth/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "SE Ranking",
+      "source": "https://seranking.com/api/data/getting-started/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Ahrefs",
+      "source": "https://docs.ahrefs.com/en/api/docs/introduction",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "MrScraper",
+      "source": "https://docs.mrscraper.com/docs/api/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Apify",
+      "source": "https://docs.apify.com/api/v2",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Bright Data",
+      "source": "https://brightdata.com/products/web-scraper",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Copper",
+      "source": "https://www.developer.copper.com/introduction/authentication.html",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "DealCloud",
+      "source": "https://api.docs.dealcloud.com/docs/token",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Help Scout",
+      "source": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Gladly",
+      "source": "https://developer.gladly.com/rest/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Lark",
+      "source": "https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "WhatsApp Business Platform",
+      "source": "https://developers.facebook.com/documentation/business-messaging/whatsapp/overview/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Aircall",
+      "source": "https://developer.aircall.io/docs/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Vonage",
+      "source": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Airtable",
+      "source": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "monday.com",
+      "source": "https://developer.monday.com/api-reference/docs/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "ClickUp",
+      "source": "https://developer.clickup.com/docs/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Coda",
+      "source": "https://coda.io/developers/apis/v1",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Harvest",
+      "source": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "QuickBooks Online",
+      "source": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Xero",
+      "source": "https://developer.xero.com/documentation/guides/oauth2/overview",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Brex",
+      "source": "https://developer.brex.com/guides/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Ramp",
+      "source": "https://docs.ramp.com/developer-api/v1/authorization",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Otter AI",
+      "source": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Grain",
+      "source": "https://developers.grain.com/authentication.html",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Supabase",
+      "source": "https://supabase.com/docs/guides/getting-started/api-keys",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Neo4j",
+      "source": "https://neo4j.com/docs/query-api/current/authentication-authorization/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Snowflake",
+      "source": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "MongoDB Atlas",
+      "source": "https://www.mongodb.com/docs/atlas/configure-api-access/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Threads",
+      "source": "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Firecrawl",
+      "source": "https://docs.firecrawl.dev/developer-guides/common-sites/github",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "LiveAgent",
+      "source": "https://support.liveagent.com/docs/api/v3/",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "NotebookLM Enterprise",
+      "source": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Consensus",
+      "source": "https://help.consensus.app/en/articles/16516328-the-consensus-api",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Devin",
+      "source": "https://docs.devin.ai/es/api-reference/authentication",
+      "scope": "First-party documentation checked for core API/auth/access fields; not included in measured accuracy sample."
+    },
+    {
+      "app": "Gumroad",
+      "source": "https://gumroad.com/help/article/67-the-settings-menu",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "Sherlock",
+      "source": "https://github.com/sherlock-project/sherlock",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "Waterfall.io",
+      "source": "https://www.waterfall.io/",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "Clay",
+      "source": "https://university.clay.com/docs/clay-api-cli",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "Datadog",
+      "source": "https://docs.datadoghq.com/api/latest/authentication/",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "Sentry",
+      "source": "https://docs.sentry.io/api/auth/",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "Smartsheet",
+      "source": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "Binance",
+      "source": "https://www.binance.com/en/support/faq/detail/360002502072",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "iPayX",
+      "source": "https://www.ipayx.ai/docs/api",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "PitchBook",
+      "source": "https://pitchbook.com/help/PitchBook-api",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "Fathom",
+      "source": "https://help.fathom.video/en/articles/8368641",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "Higgsfield",
+      "source": "https://open.higgsfield.ai/quick-start",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "Mermaid CLI",
+      "source": "https://github.com/mermaid-js/mermaid-cli",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    },
+    {
+      "app": "YouTube Transcript",
+      "source": "https://transcriptapi.com/",
+      "scope": "First-party source checked for core auth/access/API or product-surface claims; excluded from measured 11-app accuracy sample."
+    }
+  ],
+  "coverage": {
+    "accuracy_sample": 11,
+    "additional_source_checked_rows": 86,
+    "triage_rows": 3,
+    "rows_total": 100,
+    "interpretation": "The 11-app sample is contained in the separately reported purposive accuracy sample; 86 other rows have first-party core-field checks; unresolved rows are FanBasis/Commas, Paygent Connect, and Reducto."
+  },
+  "unresolved_rows": [
+    {
+      "app": "Commas (formerly FanBasis)",
+      "issue": "Brand rebrand confirmed, but current public API endpoint/auth/entitlement not established; legacy checkout references need vendor confirmation."
+    },
+    {
+      "app": "Paygent Connect",
+      "issue": "Product identity remains ambiguous; assignment hint NMI-powered does not identify a verifiable integration page. Separate Paygent.tech is not assumed to be the same app."
+    },
+    {
+      "app": "Reducto",
+      "issue": "Official docs exist but auth, access/pricing, API breadth, and MCP were not adjudicated in this pass."
+    }
+  ],
+  "mcp_source_checks": [
+    {
+      "app": "DataForSEO",
+      "source": "https://dataforseo.com/model-context-protocol",
+      "finding": "Official hosted/local MCP and API-credential setup documented."
+    },
+    {
+      "app": "Smartsheet",
+      "source": "https://developers.smartsheet.com/ai-mcp/smartsheet/install-the-smartsheet-mcp-server",
+      "finding": "Official MCP documented; requires Business/Enterprise/Advanced Work Management."
+    },
+    {
+      "app": "Otter AI",
+      "source": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+      "finding": "Official OAuth MCP server documented; supported client availability is rolling out."
+    },
+    {
+      "app": "NotebookLM Enterprise",
+      "source": "https://developers.google.com/notebook/docs/mcp",
+      "finding": "Gemini Notebook API has an official remote MCP; distinct from consumer NotebookLM."
+    },
+    {
+      "app": "Salesforce Commerce Cloud",
+      "source": "https://developer.salesforce.com/docs/commerce/commerce-solutions/guide/b2c-developer-tooling.html",
+      "finding": "B2C Commerce tooling docs include a product-specific MCP."
+    }
+  ]
+}
+
