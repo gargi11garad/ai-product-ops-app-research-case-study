@@ -1,0 +1,803 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "url": "https://developers.hubspot.com/changelog/service-keys",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 3,
+    "app": "Pipedrive",
+    "url": "https://developers.pipedrive.com/docs/api/v1",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 4,
+    "app": "Attio",
+    "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 5,
+    "app": "Twenty",
+    "url": "https://docs.twenty.com/developers/extend/api",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 6,
+    "app": "Podio",
+    "url": "https://developers.podio.com/index/faq",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 7,
+    "app": "Zoho CRM",
+    "url": "https://www.zoho.com/crm/developer/docs/api/v8/auth-request.html",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 8,
+    "app": "Close",
+    "url": "https://developer.close.com/integrations",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 9,
+    "app": "Copper",
+    "url": "https://www.developer.copper.com/introduction/authentication.html",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 10,
+    "app": "DealCloud",
+    "url": "https://api.docs.dealcloud.com/docs/token",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 11,
+    "app": "Zendesk",
+    "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 13,
+    "app": "Freshdesk",
+    "url": "https://developers.freshdesk.com/api/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 14,
+    "app": "Front",
+    "url": "https://dev.frontapp.com/docs/create-and-manage-apps",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 15,
+    "app": "Pylon",
+    "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 16,
+    "app": "LiveAgent",
+    "url": "https://support.liveagent.com/docs/api/v3/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 17,
+    "app": "Plain",
+    "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 18,
+    "app": "Help Scout",
+    "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 19,
+    "app": "Gorgias",
+    "url": "https://developers.gorgias.com/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 20,
+    "app": "Gladly",
+    "url": "https://developer.gladly.com/rest/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 21,
+    "app": "Slack",
+    "url": "https://docs.slack.dev/authentication/installing-with-oauth/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 22,
+    "app": "Twilio",
+    "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 23,
+    "app": "Zoho Cliq",
+    "url": "https://www.zoho.com/cliq/help/restapi/v3/registerclient/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 24,
+    "app": "Lark",
+    "url": "https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 25,
+    "app": "Pumble",
+    "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 26,
+    "app": "Discord",
+    "url": "https://github.com/discord/discord-api-docs/blob/main/developers/topics/oauth2.mdx",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 27,
+    "app": "Telegram",
+    "url": "https://core.telegram.org/bots/features",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 28,
+    "app": "WhatsApp Business",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/overview/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "url": "https://developer.aircall.io/docs/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 30,
+    "app": "Vonage",
+    "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 31,
+    "app": "Google Ads",
+    "url": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 32,
+    "app": "Meta Ads",
+    "url": "https://developers.facebook.com/docs/graph-api/overview/rate-limiting/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 33,
+    "app": "LinkedIn Ads",
+    "url": "https://learn.microsoft.com/en-us/linkedin/marketing/lms-faq?view=li-lms-2026-05",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 35,
+    "app": "Mailchimp",
+    "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "url": "https://developers.klaviyo.com/en/v2026-01-15/docs/authenticate_",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 37,
+    "app": "systeme.io",
+    "url": "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 38,
+    "app": "Pinterest",
+    "url": "https://dev.pinterest.com/docs/getting-started/connect-app/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 39,
+    "app": "Threads",
+    "url": "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 40,
+    "app": "SendGrid",
+    "url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 42,
+    "app": "WooCommerce",
+    "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 45,
+    "app": "Magento / Adobe Commerce",
+    "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 46,
+    "app": "Squarespace",
+    "url": "https://commerce-apis.squarespace.com/commerce-apis/authentication-and-permissions",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 47,
+    "app": "Ecwid",
+    "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "url": "https://gumroad.com/help/article/67-the-settings-menu",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "url": "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 50,
+    "app": "Commas (formerly FanBasis)",
+    "url": "https://commas.com/fanbasis-is-now-commas",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "url": "https://docs.dataforseo.com/v3/auth/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 52,
+    "app": "SE Ranking",
+    "url": "https://seranking.com/api/data/getting-started/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "url": "https://docs.ahrefs.com/en/api/docs/introduction",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 54,
+    "app": "MrScraper",
+    "url": "https://docs.mrscraper.com/docs/api/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 55,
+    "app": "Apify",
+    "url": "https://docs.apify.com/api/v2",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 56,
+    "app": "Firecrawl",
+    "url": "https://docs.firecrawl.dev/developer-guides/common-sites/github",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 57,
+    "app": "Bright Data",
+    "url": "https://brightdata.com/products/web-scraper",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 58,
+    "app": "Sherlock",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 59,
+    "app": "Waterfall.io",
+    "url": "https://www.waterfall.io/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "url": "https://university.clay.com/docs/clay-api-cli",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 62,
+    "app": "Vercel",
+    "url": "https://vercel.com/docs/rest-api",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 63,
+    "app": "Netlify",
+    "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 64,
+    "app": "Cloudflare",
+    "url": "https://developers.cloudflare.com/api/overview/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 65,
+    "app": "Supabase",
+    "url": "https://supabase.com/docs/guides/getting-started/api-keys",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 66,
+    "app": "Neo4j",
+    "url": "https://neo4j.com/docs/query-api/current/authentication-authorization/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 67,
+    "app": "Snowflake",
+    "url": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "url": "https://www.mongodb.com/docs/atlas/configure-api-access/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 70,
+    "app": "Sentry",
+    "url": "https://docs.sentry.io/api/auth/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 71,
+    "app": "Notion",
+    "url": "https://www.notion.com/help/create-integrations-with-the-notion-api",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 72,
+    "app": "Airtable",
+    "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "url": "https://linear.app/developers/graphql",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 74,
+    "app": "Jira",
+    "url": "https://developer.atlassian.com/cloud/jira/platform/security-for-other-integrations/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 75,
+    "app": "Asana",
+    "url": "https://developers.asana.com/docs/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "url": "https://developer.monday.com/api-reference/docs/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 77,
+    "app": "ClickUp",
+    "url": "https://developer.clickup.com/docs/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 78,
+    "app": "Coda",
+    "url": "https://coda.io/developers/apis/v1",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 79,
+    "app": "Smartsheet",
+    "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 80,
+    "app": "Harvest",
+    "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "url": "https://support.stripe.com/questions/what-are-stripe-api-keys-and-how-to-find-them",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 82,
+    "app": "Plaid",
+    "url": "https://plaid.com/docs/sandbox/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 83,
+    "app": "Binance",
+    "url": "https://www.binance.com/en/support/faq/detail/360002502072",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "url": "https://www.nmi.com/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "url": "https://www.ipayx.ai/docs/api",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 86,
+    "app": "QuickBooks",
+    "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 87,
+    "app": "Xero",
+    "url": "https://developer.xero.com/documentation/guides/oauth2/overview",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "url": "https://developer.brex.com/guides/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 89,
+    "app": "Ramp",
+    "url": "https://docs.ramp.com/developer-api/v1/authorization",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "url": "https://pitchbook.com/help/PitchBook-api",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 91,
+    "app": "NotebookLM",
+    "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 92,
+    "app": "Otter AI",
+    "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 93,
+    "app": "Fathom",
+    "url": "https://help.fathom.video/en/articles/8368641",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 94,
+    "app": "Consensus",
+    "url": "https://help.consensus.app/en/articles/16516328-the-consensus-api",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 95,
+    "app": "Reducto",
+    "url": "https://docs.reducto.ai",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 96,
+    "app": "Devin",
+    "url": "https://docs.devin.ai/es/api-reference/authentication",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 97,
+    "app": "Higgsfield",
+    "url": "https://open.higgsfield.ai/quick-start",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 98,
+    "app": "Mermaid CLI",
+    "url": "https://github.com/mermaid-js/mermaid-cli",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript (TranscriptAPI)",
+    "url": "https://transcriptapi.com/",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  },
+  {
+    "id": 100,
+    "app": "Grain",
+    "url": "https://developers.grain.com/authentication.html",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+    "claim_status": "not_adjudicated",
+    "human_review": "required; fetch failure is not evidence that a product/API is unavailable"
+  }
+]
+
