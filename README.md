@@ -8,7 +8,8 @@ A single-file interactive case study for a 100-app API readiness triage, with st
 - **Measured sample only:** the selected 11-app access-gate sample moved from 7/11 (63.6%) on first pass to 11/11 (100%) after official-doc review. Four corrections are shown in the case study. This is not a random sample or a population accuracy estimate.
 - **MCP:** 29 official/vendor MCP offerings or connectors confirmed; targeted status checks cover 39 app rows; 61 are still unchecked. Blank/unchecked does not mean absent.
 - **Latest runner pass:** attempted all 100 cited URLs; 0 fetched and 100 returned Windows DNS-resolution errors (`getaddrinfo failed`). An earlier pass in the project recorded 90/100 fetches, but that runner only collected page signals. Neither run determines whether claims are true. The current JSON is the reproducible result from this workspace.
-- A public URL and public source repository are not configured.
+- **Public case study:** https://gargi11garad.github.io/ai-product-ops-app-research-case-study/
+- **Source repository:** https://github.com/gargi11garad/ai-product-ops-app-research-case-study
 
 ## Run the research agent
 
@@ -28,6 +29,6 @@ Useful options: `--input`, `--output`, `--limit`, `--workers`, `--timeout`, `--r
 - `research_signals.json` — latest 100-URL run (100 DNS failures in this network environment)
 - `verification_report.json` — sample design, corrections, added source checks, MCP coverage, unresolved claims, and deployment status
 
-Open `index.html` locally. To meet the assignment's final submission requirement, publish the HTML and source repository after connecting a hosting/source-control account.
+Open `index.html` locally, or visit the public case-study URL above. GitHub Pages publishes from the `main` branch root.
 
 
